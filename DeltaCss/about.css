@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a, h1, h2, h3, h4, h5 , h6, p, span, ul, li, p , i, input{
+    outline: 0;
+    border: 0;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
+
+.about_details{
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 0;
+}
+.aboutPage_img{
+    width: 100%;
+    height: 350px;
+    padding: 20px 0;
+}
+.aboutPage_img img{
+    width: 100%;
+    height: 100%;
+
+}
+.aboutPage_ritght{
+    padding: 20px 0;
+}
+.aboutPage_ritght h1{
+    font-size: 28px;
+}
+.aboutPage_ritght p{
+    font-size: 16px;
+    
+}
+.aboutPage_ritght  .span1{
+    background: rgb(1, 36, 65);
+}
