@@ -495,6 +495,103 @@ text-shadow: 0 0 10px #FFFFFF;
   }
   
   /*======FolioPart end===========*/
+
+
+/*---=======Skill Part start----*/
+  .SkillBox{
+    width: 90%;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    height: 400px;
+    margin: 20px auto;
+    padding: 10px 40px 40px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+  }
+
+  .skillparts h3{
+    font-size: 35px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .progressbar{
+    width: 100%;
+    background: rgb(26, 24, 24);
+    height: 12px;
+    position: relative;
+    margin: 10px 0;
+  }
+  .parcentage{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    background: rgb(0, 158, 250);
+    border-radius:0px 30px 30px 0;
+    -webkit-border-radius:0px 30px 30px 0;
+    -moz-border-radius:0px 30px 30px 0;
+    -ms-border-radius:0px 30px 30px 0;
+    -o-border-radius:0px 30px 30px 0;
+    animation: animate 2s linear forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+    -webkit-animation: animate 2s linear forwards;
+}
+.css{
+  width: 85%;
+}
+.Java{
+  width: 35%;
+}
+.bootstrap{
+  width: 80%;
+}
+.jquery{
+  width: 40%;
+}
+.parcentage::after{
+  position: absolute;
+  content: '95%';
+  background: black;
+  border-radius: 7px solid white;
+  top: -30px;
+  right: 0;
+  padding: 2px 8px;
+  color: white;
+  border-radius:0px 8px 0px 0px;
+  -webkit-border-radius:0px 8px 0px 0px;
+  -moz-border-radius:0px 8px 0px 0px;
+  -ms-border-radius:0px 8px 0px 0px;
+  -o-border-radius:0px 8px 0px 0px;
+  animation: animate .2s linear forwards;
+  transform: scaleX(0);
+  -webkit-animation: animate .2s linear forwards;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+}
+.css::after{
+  content: '85%';
+}
+.Java::after{
+  content: '35%';
+}
+.bootstrap::after{
+  content: '80%';
+}
+.jquery::after{
+  content: '40%';
+}
+@keyframes animate{
+ 100%{
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+}
+}
+
+/*---=======Skill Part end----*/
   
   .tab_menu{
     margin: 40px 0 30px 0 ;
