@@ -531,6 +531,26 @@
         flex-wrap: wrap;
         gap: 45px;
     }
+
+    .SkillBox{
+        padding: 10px;
+    }
+    .skillparts{
+        width: 100%;
+        background: transparent;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+
+    }
+   
+    .skillparts h3{
+        font-size: 18px;
+    }
+    .parcentage::after{
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 576px){
